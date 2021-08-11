@@ -1,0 +1,27 @@
+{
+  "name": "api-veterinaria",
+  "version": "1.0.0",
+  "description": "backend en mongo y nodejs",
+  "main": "app.js",
+  "scripts": {
+    "dev":"nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LaureanoVera/api-veterinaria.git"
+  },
+  "keywords": [],
+  "author": "Laureano Vera",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LaureanoVera/api-veterinaria/issues"
+  },
+  "homepage": "https://github.com/LaureanoVera/api-veterinaria#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.13.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
