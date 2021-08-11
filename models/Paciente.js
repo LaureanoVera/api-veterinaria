@@ -9,4 +9,4 @@ const pacientesSchema = new Schema({
   sintomas: { type: String, trim: true },
 });
 
-module.exports = mongoose.models('Paciente', pacientesSchema)
+module.exports = mongoose.model('Paciente', pacientesSchema)
