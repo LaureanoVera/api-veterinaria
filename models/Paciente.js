@@ -6,6 +6,7 @@ const pacientesSchema = new Schema({
   propietario: { type: String, trim: true },
   fecha: { type: String, trim: true },
   hora: { type: String, trim: true },
+  telefono: { type: String, trim: true },
   sintomas: { type: String, trim: true },
 });
 
